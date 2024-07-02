@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: "nanum";
+    src: url("font/NanumSquareNeo-bRg.ttf");
+}
+
+/* 스타일시트 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, a:link, a:visited{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: "nanum";
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* CLEAR */
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+header{
+    position: absolute; /* 헤더 상단 고정 */
+    top: 0;
+    z-index: 1; /* 헤더가 모든 컨텐츠 중 가장 위*/
+    padding: 1rem;
+    width: 100%; /* 헤더 자체의 너비는 화면 가로 너비와 같음*/
+    background-color: #ccc;
+    text-align: center;    
+}
+header .container{
+    width: 70%; /* 실질적으로 사용할 header의 너비는 전체의 70% */
+    display: flex; /* nav 요소들 가로로 정렬하기 위해 display 요소를 flex로 설정 */
+    justify-content: space-between; /* h2와 ul>li를 각각 양쪽 끝에 배치 */
+    align-items: center;
+}
+
+header nav ul{
+    display: flex; /* 가로 정렬을 위해 display: flex 로 설정 */
+}
+
+header nav ul li{
+    padding: 10px;
+}
+
+/* FOOTER */
