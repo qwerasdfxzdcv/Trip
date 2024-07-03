@@ -16,13 +16,13 @@ header h2, header .container li a{
     opacity: 0.75;
 }
 .background{
-    background-color: rgb(130, 198, 198);
+    background-color:/* rgb(130, 198, 198);*/ black;
     height: 600px;
     width: 100%;
 }
 
 .hi{
-    width: 100%;
+    width: 1536px;
     height: 600px;
     position: absolute;
     opacity: 1;
@@ -40,10 +40,10 @@ header h2, header .container li a{
 .container .background .hi .button{
     border: 7px solid white;
     border-radius: 30px;
-    width: 16%;
+    width: 235px;
     height: 50px;
-    margin-left: 42%;
-    margin-right: 42%;
+    margin-left: 645px;
+    margin-right: 645px;
     margin-top: 15px;
 }
 .button h4{

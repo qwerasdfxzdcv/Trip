@@ -1,24 +1,95 @@
 main .container{
-    width: 80%;
+    width: 1215px;
     height: 600px;
 }
 .activity_choice{
     border: 1px solid red;
-    
-    width: 100%;
-    height: 400px;
+    background-color: lightgray;
+    width: 970px;
+    height: 450px;
 }
-.big_box h2{
-    margin-top: 10%;
+.activity_box h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 h4{
     font-weight: normal;
     font-size: 24px;
+    color: white;
+    padding: 30px;
 }
-.activity_choice .atv, .activity_choice .p981, .activity_choice .yacht, .activity_choice .drone{
-    width: 24%;
+.activity_choice .atv_box, .activity_choice .p981_box, .activity_choice .yacht_box, .activity_choice .drone_box{
+    width: 430px;
+    height: 200px;
     border: 1px solid blue;
     float: left;
-    margin-left: 8px;
+    margin-left: 29px;
+}
+.activity_choice .yacht_box, .activity_choice .drone_box{
+    margin-top: 35px;
+}
+
+.activity_choice .atv_box, .activity_choice .p981_box, .activity_choice .yacht_box, .activity_choice .drone_box{
+    background-color: black;
+    position: relative;
+}
+
+.activity_choice .atv_img{
+    position: absolute;
+    width: 430px;
+    height: 200px;
+    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.6;
+}
+
+.activity_choice .p981_img{
+    position: absolute;
+    width: 430px;
+    height: 200px;
+    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.6;
+}
+
+.activity_choice .yacht_img{
+    position: absolute;
+    width: 430px;
+    height: 200px;
+    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.6;
+}
+
+.activity_choice .drone_img{
+    position: absolute;
+    width: 430px;
+    height: 200px;
+    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.6;
+}
+
+.text{
+    position: absolute;
+    opacity: 1;
+    z-index: 9;
+}
+
+.container .text>h4{
+    color: white;
+}
+
+
+footer{
+    background-color: lightpink;
 }
