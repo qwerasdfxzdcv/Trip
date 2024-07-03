@@ -1,6 +1,9 @@
 main .container{
     width: 100%;
 }
+header h2, header .container li a{
+    color: white;
+}
 .mainImg{
     position: absolute;
     margin: 0;
@@ -53,4 +56,8 @@ main .container{
 .container .background .hi .button:hover{
     background-color: black;
     border: 7px solid white;
+}
+
+header{
+    background-color: rgb(161, 179, 211);
 }
