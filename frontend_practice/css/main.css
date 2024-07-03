@@ -1,7 +1,8 @@
 main .container{
     width: 100%;
 }
-.background .mainImg{
+.mainImg{
+    position: absolute;
     margin: 0;
     height: 600px;
     width: 100%;
@@ -13,15 +14,43 @@ main .container{
 }
 .background{
     background-color: #000;
-    height: 650px;
+    height: 600px;
     width: 100%;
 }
 
-.background .mainImg h1{
+.hi{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    opacity: 1;
+    z-index: 9;
+}
+.container .hi>h2{
     text-align: center;
     font-style: italic;
     font-size: 60px;
     font-weight: bold;
     color: white;
-    margin: auto;
+    margin-top: 10%;
+}
+
+.container .background .hi .button{
+    border: 7px solid white;
+    border-radius: 30px;
+    width: 16%;
+    height: 50px;
+    margin-left: 42%;
+    margin-right: 42%;
+    margin-top: 15px;
+}
+.button h4{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.container .background .hi .button:hover{
+    background-color: black;
+    border: 7px solid white;
 }
