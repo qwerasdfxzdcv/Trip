@@ -35,7 +35,6 @@ body{
 
 /* HEADER */
 header{
-    position: absolute; /* 헤더 상단 고정 */
     top: 0;
     z-index: 1; /* 헤더가 모든 컨텐츠 중 가장 위*/
     padding: 1rem;

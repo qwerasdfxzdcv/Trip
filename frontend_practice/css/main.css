@@ -1,9 +1,9 @@
 main .container{
     width: 100%;
 }
-.mainImg{
+.background .mainImg{
     margin: 0;
-    height: 650px;
+    height: 600px;
     width: 100%;
     background-image: url(../main_image/main_image1.jpg);
     background-size:cover;
@@ -16,9 +16,12 @@ main .container{
     height: 650px;
     width: 100%;
 }
-.mainImg_text{
-    font-size: 48px;
+
+.background .mainImg h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
     font-weight: bold;
     color: white;
-    
+    margin: auto;
 }
