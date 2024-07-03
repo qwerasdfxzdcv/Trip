@@ -1,0 +1,24 @@
+main .container{
+    width: 100%;
+}
+.mainImg{
+    margin: 0;
+    height: 650px;
+    width: 100%;
+    background-image: url(../main_image/main_image1.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+}
+.background{
+    background-color: #000;
+    height: 650px;
+    width: 100%;
+}
+.mainImg_text{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    
+}
