@@ -1,0 +1,24 @@
+main .container{
+    width: 80%;
+    height: 600px;
+}
+.activity_choice{
+    border: 1px solid red;
+    
+    width: 100%;
+    height: 400px;
+}
+.big_box h2{
+    margin-top: 10%;
+    text-align: center;
+}
+h4{
+    font-weight: normal;
+    font-size: 24px;
+}
+.activity_choice .atv, .activity_choice .p981, .activity_choice .yacht, .activity_choice .drone{
+    width: 24%;
+    border: 1px solid blue;
+    float: left;
+    margin-left: 8px;
+}

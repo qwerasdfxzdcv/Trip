@@ -39,7 +39,7 @@ header{
     z-index: 1; /* 헤더가 모든 컨텐츠 중 가장 위*/
     padding: 1rem;
     width: 100%; /* 헤더 자체의 너비는 화면 가로 너비와 같음*/
-    background-color: #ccc;
+    background-color: white;
     text-align: center;    
 }
 header .container{
@@ -60,7 +60,7 @@ header nav ul li{
 
 /* FOOTER */
 footer{
-    background-color: #999;
+    background-color: white;
 }
 footer .copyright{
     padding: 12px 30px 12px 30px;

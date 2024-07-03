@@ -16,7 +16,7 @@ header h2, header .container li a{
     opacity: 0.75;
 }
 .background{
-    background-color: #000;
+    background-color: rgb(130, 198, 198);
     height: 600px;
     width: 100%;
 }
@@ -54,10 +54,18 @@ header h2, header .container li a{
 }
 
 .container .background .hi .button:hover{
-    background-color: black;
+    background-color: rgb(89, 130, 156);
     border: 7px solid white;
 }
 
 header{
-    background-color: rgb(161, 179, 211);
+    background-color: rgb(161, 186, 211);
+}
+
+footer{
+    background-color: rgb(205, 208, 126);
+}
+
+footer .copyright{
+    color: white;
 }
