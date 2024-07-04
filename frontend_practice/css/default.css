@@ -61,7 +61,9 @@ header nav ul li{
 
 /* FOOTER */
 footer{
+    width: 100%;
     background-color: white;
+    bottom: 0;
 }
 footer .copyright{
     padding: 12px 30px 12px 30px;

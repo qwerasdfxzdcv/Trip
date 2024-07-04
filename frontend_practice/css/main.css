@@ -1,3 +1,6 @@
+body{
+    height: 100vh;
+}
 main .container{
     width: 100%;
 }
@@ -7,7 +10,7 @@ header h2, header .container li a{
 .mainImg{
     position: absolute;
     margin: 0;
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-image: url(../main_image/main_image1.jpg);
     background-size:cover;
@@ -17,12 +20,12 @@ header h2, header .container li a{
 }
 .background{
     background-color:/* rgb(130, 198, 198);*/ black;
-    height: 600px;
+    height: 100vh;
     width: 100%;
 }
 
 .hi{
-    width: 1536px;
+    width: 100%;
     height: 600px;
     position: absolute;
     opacity: 1;
@@ -42,8 +45,7 @@ header h2, header .container li a{
     border-radius: 30px;
     width: 235px;
     height: 50px;
-    margin-left: 645px;
-    margin-right: 645px;
+    margin: 0 auto;
     margin-top: 15px;
 }
 .button h4{
@@ -64,6 +66,8 @@ header{
 
 footer{
     background-color: rgb(205, 208, 126);
+    position: sticky;
+    bottom: 0;
 }
 
 footer .copyright{

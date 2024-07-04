@@ -1,15 +1,18 @@
+body{
+    height: 100vh;
+}
 main{
-    height: 600px;
+    height: 100vh;
 }
 main .container{
-    width: 1215px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .activity_img{
     position: absolute;
     margin: 0;
-    height: 600px;
+    height: 100%;
     width: 100%;
     background-image: url(../html/sub_page/sub_images/activity_back.jpg);
     background-size:cover;
@@ -22,11 +25,12 @@ main .container{
 }
 .activity_box{
     min-width: 1000px;
+    height: 100%;
 }
 
 .activity_background{
     position: absolute;
-    height: 600px;
+    height: 100%;
     width: 100%;
 }
 
@@ -35,16 +39,17 @@ main .container{
     border-right: 2px dashed #29385d;
     border-left: 2px dashed #29385d;
     width: 1250px;
+    height: 100%;
 }
 .activity_choice{
     /*border: 1px solid red;
     background-color: lightgray;*/
     width: 970px;
-    height: 450px;
+    height: 750px;
 }
 .activity_box h2{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     text-align: center;
     color: #29385d;
 }
@@ -57,7 +62,7 @@ h4{
 }
 .activity_choice .atv_box, .activity_choice .p981_box, .activity_choice .yacht_box, .activity_choice .drone_box{
     width: 430px;
-    height: 200px;
+    height: 300px;
     /*border: 1px solid blue;*/
     float: left;
     margin-left: 29px;
@@ -75,7 +80,7 @@ h4{
 .activity_choice .atv_img{
     position: absolute;
     width: 430px;
-    height: 200px;
+    height: 300px;
     background-image: url(../html/sub_page/sub_images/activity_atv.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +92,7 @@ h4{
 .activity_choice .p981_img{
     position: absolute;
     width: 430px;
-    height: 200px;
+    height: 300px;
     background-image: url(../html/sub_page/sub_images/activity_981.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +104,7 @@ h4{
 .activity_choice .yacht_img{
     position: absolute;
     width: 430px;
-    height: 200px;
+    height: 300px;
     background-image: url(../html/sub_page/sub_images/activity_yacht.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +116,7 @@ h4{
 .activity_choice .drone_img{
     position: absolute;
     width: 430px;
-    height: 200px;
+    height: 300px;
     background-image: url(../html/sub_page/sub_images/activity_drone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
