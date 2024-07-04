@@ -12,6 +12,16 @@ main .container{
     margin-right: 100px;
     top: 30%;
 }
+.sub_menu1{
+    margin-top: 100px;
+    float: left;
+    height: 200px;
+    min-width: 130px;
+    position: sticky;
+    display: flex;
+    margin-right: 100px;
+    top: 30%;
+}
 .sub_menu a{
     display: flex;
 }
@@ -19,6 +29,15 @@ main .container{
     margin: 20px 0 0 10px;
 }
 .sub_menu a:hover{
+    color: blue;
+}
+.sub_menu1 a{
+    display: flex;
+}
+.sub_menu1 li{
+    margin: 20px 0 0 10px;
+}
+.sub_menu1 a:hover{
     color: blue;
 }
 
