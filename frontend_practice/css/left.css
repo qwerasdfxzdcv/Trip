@@ -1,7 +1,30 @@
-
+main{
+    height: 600px;
+}
 main .container{
     width: 1215px;
     height: 600px;
+}
+
+.activity_img{
+    position: absolute;
+    margin: 0;
+    height: 600px;
+    width: 100%;
+    background-image: url(../html/sub_page/sub_images/activity_back.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    z-index: -1;
+    filter: blur(10px);
+    opacity: 0.7;
+}
+
+.activity_background{
+    position: absolute;
+    height: 600px;
+    width: 100%;
 }
 .activity_choice{
     /*border: 1px solid red;
@@ -13,6 +36,7 @@ main .container{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    color: white;
 }
 
 .sub_menu{
@@ -21,7 +45,12 @@ main .container{
 
 .sub_menu ul li{
     padding-bottom: 10px;
-    border-bottom: 1px dashed rgb(226, 200, 133);
+    border-bottom: 1px dashed rgb(255, 255, 255);
+}
+
+.sub_menu ul li a{
+    color: black;
+    font-style: italic;
 }
 
 h4{
@@ -55,6 +84,7 @@ h4{
     background-size: cover;
     background-position: center center;
     opacity: 0.6;
+    filter:blur(4px);
 }
 
 .activity_choice .p981_img{
@@ -66,6 +96,7 @@ h4{
     background-size: cover;
     background-position: center center;
     opacity: 0.6;
+    filter:blur(4px);
 }
 
 .activity_choice .yacht_img{
@@ -77,6 +108,7 @@ h4{
     background-size: cover;
     background-position: center center;
     opacity: 0.6;
+    filter:blur(4px);
 }
 
 .activity_choice .drone_img{
@@ -88,6 +120,7 @@ h4{
     background-size: cover;
     background-position: center center;
     opacity: 0.6;
+    filter:blur(4px);
 }
 
 .text{
@@ -101,7 +134,7 @@ h4{
 }
 
 header{
-    background-color: lightblue;
+    background-color: rgb(131, 176, 194);
     color: white;
 }
 
@@ -110,6 +143,81 @@ header .container nav li a{
 }
 
 footer{
-    background-color: lightpink;
+    background-color: lightgray;
     color: white;
 }
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    max-height: 400px;
+    position: relative;
+    margin-top: 80px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.food_slide1{
+    background-image: url(../html/sub_page/sub_images/sub_img1.jpg);
+}
+.food_slide2{
+    background-image: url(../html/sub_page/sub_images/sub_img2.jpg);
+}
+.food_slide3{
+    background-image: url(../html/sub_page/sub_images/sub_img3.jpg);
+}
+.traffic_slide1{
+    background-image: url(../html/sub_page/sub_images/sub_img4.jpg);
+}
+.traffic_slide2{
+    background-image: url(../html/sub_page/sub_images/sub_img5.jpg);
+}
+.traffic_slide3{
+    background-image: url(../html/sub_page/sub_images/sub_img6.jpg);
+}
+
+
+.food_slide1, .food_slide2, .food_slide3, .traffic_slide1, .traffic_slide2, .traffic_slide3{
+    width: 1000px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.explain{
+    width: 300px;
+    margin-top: 20px;
+    border-right: 2px dashed black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.explain .title{
+    font-size: 24px;
+    color: black;
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.explain .content{
+    line-height: 1.4em;
+    font-size: 14px;
+}
+
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+

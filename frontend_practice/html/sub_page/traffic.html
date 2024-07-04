@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../css/default.css" rel="stylesheet" type="text/css" media="all"/>
+    <!--<link href="../../css/main.css" rel="stylesheet" type="text/css" media="all"/>-->
+    <link href="../../css/sub.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../../css/left.css" rel="stylesheet" type="text/css" media="all"/>
+    <title>Food</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2>Hi, Jeju</h2>
+            <nav>
+                <ul>
+                    <li><a href="../home.html">home</a></li>
+                    <li><a href="../sub_page/day1_2.html">diary</a></li>
+                    <li><a href="#">album</a></li>
+                    <li><a href="#">Ect. info</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <nav class="sub_menu">
+                <ul>
+                    <li><a href="activity.html">액티비티</a></li>
+                    <li><a href="food.html">먹거리</a></li>
+                    <li><a href="traffic.html">숙소 & 교통</a></li>
+                    <li><a href="#">볼거리 & 놀거리</a></li>
+                </ul>
+            </nav>
+            <div class="slideshow-container">
+                <div class="mySlides fade">                    
+                    <div class="traffic_slide1"></div>
+                </div>                
+                <div class="mySlides fade">
+                    <div class="traffic_slide2"></div>
+                </div>                
+                <div class="mySlides fade">
+                    <div class="traffic_slide3"></div>
+                </div>                
+            </div>
+                <br>                
+
+    </main>
+
+    <div class="clear"></div>
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                All contents Copyright 2024 Sooook inc. all rights reserved.<br/>
+                Contact mail: platinum57s@naver.com &nbsp; &nbsp; Tel: +82 10-6304-6449
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 4000); // Change image every 2 seconds
+            }
+    </script>
+</body>
+</html>
