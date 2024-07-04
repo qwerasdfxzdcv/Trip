@@ -20,6 +20,9 @@ main .container{
     filter: blur(10px);
     opacity: 0.7;
 }
+.activity_box{
+    min-width: 1000px;
+}
 
 .activity_background{
     position: absolute;
@@ -40,12 +43,12 @@ main .container{
 }
 
 .sub_menu{
-    margin-top: 230px;
+    margin-top: 150px;
 }
 
 .sub_menu ul li{
     padding-bottom: 10px;
-    border-bottom: 1px dashed rgb(255, 255, 255);
+    border-bottom: 1px dashed black;
 }
 
 .sub_menu ul li a{
@@ -152,7 +155,7 @@ footer{
     max-width: 1000px;
     max-height: 400px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 /* Hide the images by default */
@@ -194,26 +197,40 @@ footer{
     animation-duration: 2s;
 }
 
-.explain{
-    width: 300px;
+.explain_box{
+    width: 1000px;
+    display:flex;
+}
+
+.explain, .explain_borderNone{
+    width: 333px;
     margin-top: 20px;
-    border-right: 2px dashed black;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.explain .title{
+.explain{
+    border-right: 2px dashed black;
+}
+
+.explain_borderNone{
+    border: none;
+}
+
+.explain .food_title, .explain_borderNone .food_title{
     font-size: 24px;
-    color: black;
+    color:rgb(39, 53, 59);
     font-style: italic;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-.explain .content{
+.explain .food_content, .explain_borderNone .food_content{
     line-height: 1.4em;
     font-size: 14px;
+    color:rgb(39, 53, 59);
 }
+
 
 
 @keyframes fade {
