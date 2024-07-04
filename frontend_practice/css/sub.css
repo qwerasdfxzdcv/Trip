@@ -3,36 +3,50 @@ main .container{
     display: flex;
 }
 .sub_menu{
-    margin-top: 100px;
+    margin-top: 150px;
     float: left;
     height: 200px;
     min-width: 130px;
     position: sticky;
     display: flex;
-    margin-right: 100px;
-    top: 30%;
+    margin-right: 50px;
+    margin-left: 50px;
+    top: 40%;
 }
 .sub_menu1{
-    margin-top: 100px;
+    margin-top: 150px;
     float: left;
     height: 200px;
     min-width: 130px;
     position: sticky;
     display: flex;
-    margin-right: 100px;
-    top: 30%;
+    margin-right: 50px;
+    margin-left: 50px;
+    top: 35%;
 }
 .sub_menu a{
     display: flex;
+    color: black;
+    font-style: italic;
 }
 .sub_menu li{
     margin: 20px 0 0 10px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 10px;
+}
+
+.sub_menu1 li{
+    margin: 20px 0 0 10px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 10px;
 }
 .sub_menu a:hover{
     color: blue;
 }
 .sub_menu1 a{
     display: flex;
+    color: black;
+    font-style: italic;
 }
 .sub_menu1 li{
     margin: 20px 0 0 10px;
