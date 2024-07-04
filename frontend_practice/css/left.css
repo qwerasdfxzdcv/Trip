@@ -49,20 +49,6 @@ main .container{
     color: #29385d;
 }
 
-.sub_menu{
-    margin-top: 150px;
-}
-
-.sub_menu ul li{
-    padding-bottom: 10px;
-    border-bottom: 1px dashed black;
-}
-
-.sub_menu ul li a{
-    color: black;
-    font-style: italic;
-}
-
 h4{
     font-weight: normal;
     font-size: 24px;
