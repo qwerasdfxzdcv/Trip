@@ -288,15 +288,3 @@ header .container ul li a{
     height: 1000px;
     padding: 10px;
 }
-.nextday{
-    background-image: url(../html/sub_page/sub_images/nextday.jpg);
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 200px;
-    float: right;
-}
-.nextday a{
-    width: 300px;
-    height: 200px;
-    float: right;
-}
