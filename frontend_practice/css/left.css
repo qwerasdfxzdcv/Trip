@@ -1,10 +1,11 @@
+
 main .container{
     width: 1215px;
     height: 600px;
 }
 .activity_choice{
-    border: 1px solid red;
-    background-color: lightgray;
+    /*border: 1px solid red;
+    background-color: lightgray;*/
     width: 970px;
     height: 450px;
 }
@@ -13,6 +14,16 @@ main .container{
     margin-bottom: 50px;
     text-align: center;
 }
+
+.sub_menu{
+    margin-top: 230px;
+}
+
+.sub_menu ul li{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgb(226, 200, 133);
+}
+
 h4{
     font-weight: normal;
     font-size: 24px;
@@ -22,7 +33,7 @@ h4{
 .activity_choice .atv_box, .activity_choice .p981_box, .activity_choice .yacht_box, .activity_choice .drone_box{
     width: 430px;
     height: 200px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     float: left;
     margin-left: 29px;
 }
@@ -89,7 +100,16 @@ h4{
     color: white;
 }
 
+header{
+    background-color: lightblue;
+    color: white;
+}
+
+header .container nav li a{
+    color: white;
+}
 
 footer{
     background-color: lightpink;
+    color: white;
 }
