@@ -29,6 +29,13 @@ main .container{
     height: 600px;
     width: 100%;
 }
+
+.activity_background .container{
+    background-color: white;
+    border-right: 2px dashed #29385d;
+    border-left: 2px dashed #29385d;
+    width: 1250px;
+}
 .activity_choice{
     /*border: 1px solid red;
     background-color: lightgray;*/
@@ -39,7 +46,7 @@ main .container{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    color: white;
+    color: #29385d;
 }
 
 .sub_menu{
@@ -74,15 +81,16 @@ h4{
 }
 
 .activity_choice .atv_box, .activity_choice .p981_box, .activity_choice .yacht_box, .activity_choice .drone_box{
-    background-color: black;
+    background-color: rgb(53, 53, 53);
     position: relative;
+    
 }
 
 .activity_choice .atv_img{
     position: absolute;
     width: 430px;
     height: 200px;
-    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-image: url(../html/sub_page/sub_images/activity_atv.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -94,10 +102,10 @@ h4{
     position: absolute;
     width: 430px;
     height: 200px;
-    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-image: url(../html/sub_page/sub_images/activity_981.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     opacity: 0.6;
     filter:blur(4px);
 }
@@ -106,10 +114,10 @@ h4{
     position: absolute;
     width: 430px;
     height: 200px;
-    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-image: url(../html/sub_page/sub_images/activity_yacht.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     opacity: 0.6;
     filter:blur(4px);
 }
@@ -118,7 +126,7 @@ h4{
     position: absolute;
     width: 430px;
     height: 200px;
-    background-image: url(../html/sub_page/sub_images/nextday.jpg);
+    background-image: url(../html/sub_page/sub_images/activity_drone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -164,13 +172,13 @@ footer{
 }
 
 .food_slide1{
-    background-image: url(../html/sub_page/sub_images/sub_img1.jpg);
+    background-image: url(../html/sub_page/sub_images/food_img1.jpg);
 }
 .food_slide2{
-    background-image: url(../html/sub_page/sub_images/sub_img2.jpg);
+    background-image: url(../html/sub_page/sub_images/food_img2.jpg);
 }
 .food_slide3{
-    background-image: url(../html/sub_page/sub_images/sub_img3.jpg);
+    background-image: url(../html/sub_page/sub_images/food_img3.jpg);
 }
 .traffic_slide1{
     background-image: url(../html/sub_page/sub_images/sub_img4.jpg);
@@ -219,7 +227,7 @@ footer{
 
 .explain .food_title, .explain_borderNone .food_title{
     font-size: 24px;
-    color:rgb(39, 53, 59);
+    color:rgb(59, 49, 39);
     font-style: italic;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -228,7 +236,7 @@ footer{
 .explain .food_content, .explain_borderNone .food_content{
     line-height: 1.4em;
     font-size: 14px;
-    color:rgb(39, 53, 59);
+    color:rgb(59, 49, 39);
 }
 
 
