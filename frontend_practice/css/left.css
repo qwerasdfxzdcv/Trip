@@ -68,8 +68,22 @@ h4{
 
 .activity_choice .atv_box, .activity_choice .p981_box, .activity_choice .yacht_box, .activity_choice .drone_box{
     background-color: rgb(53, 53, 53);
-    position: relative;
-    
+    position: relative;  
+}
+.activity_choice .water_box, .activity_choice .nexon_box, .activity_choice .cup_box, .activity_choice .foot_box{
+    width: 430px;
+    height: 300px;
+    /*border: 1px solid blue;*/
+    float: left;
+    margin-left: 29px;
+}
+.activity_choice .cup_box, .activity_choice .foot_box{
+    margin-top: 35px;
+}
+
+.activity_choice .water_box, .activity_choice .nexon_box, .activity_choice .cup_box, .activity_choice .foot_box{
+    background-color: rgb(53, 53, 53);
+    position: relative;  
 }
 
 .activity_choice .atv_img{
@@ -77,6 +91,17 @@ h4{
     width: 430px;
     height: 300px;
     background-image: url(../html/sub_page/sub_images/activity_atv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.6;
+    filter:blur(4px);
+}
+.activity_choice .water_img{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    background-image: url(../html/sub_page/sub_images/water.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -95,6 +120,17 @@ h4{
     opacity: 0.6;
     filter:blur(4px);
 }
+.activity_choice .nexon_img{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    background-image: url(../html/sub_page/sub_images/nexon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.6;
+    filter:blur(4px);
+}
 
 .activity_choice .yacht_img{
     position: absolute;
@@ -107,12 +143,34 @@ h4{
     opacity: 0.6;
     filter:blur(4px);
 }
+.activity_choice .cup_img{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    background-image: url(../html/sub_page/sub_images/cup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.6;
+    filter:blur(4px);
+}
 
 .activity_choice .drone_img{
     position: absolute;
     width: 430px;
     height: 300px;
     background-image: url(../html/sub_page/sub_images/activity_drone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.6;
+    filter:blur(4px);
+}
+.activity_choice .foot_img{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    background-image: url(../html/sub_page/sub_images/foot.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
