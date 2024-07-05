@@ -313,6 +313,7 @@ header .container ul li a{
     padding: 20px;
     float: right;
     width: 450px;
+    margin-right: 40px;
     min-height: 150px;
     line-height: 1.5em;
     font-size: 14px;
