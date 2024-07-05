@@ -161,10 +161,11 @@ header .container ul li a{
     margin-top: 20px;
 }
 .img9{
-    width: 400px;
-    height: 700px;
+    width: 300px;
+    height: 500px;
+    margin-top: 20px;
     background-image: url(../html/sub_page/sub_images/sub_img9.jpg);
-    background-position:top center;
+    background-position:top;
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
@@ -214,7 +215,7 @@ header .container ul li a{
 }
 .box_9{
     width: 850px;
-    height: 60%;
+    height: 535px;
     display: block;
     margin: 20px;
 }
@@ -307,10 +308,12 @@ header .container ul li a{
     font-size: 14px;
 }
 .explain_9{
+    border: 2px dashed rgb(157, 152, 15);
+    border-radius: 30px;
+    padding: 20px;
     float: right;
-    width: 30%;
+    width: 450px;
     min-height: 150px;
-    margin: 50px;
     line-height: 1.5em;
     font-size: 14px;
 }
