@@ -168,17 +168,20 @@ footer{
     background-image: url(../html/sub_page/sub_images/food_img3.jpg);
 }
 .traffic_slide1{
-    background-image: url(../html/sub_page/sub_images/sub_img4.jpg);
+    background-image: url(../html/sub_page/sub_images/traffic_img1.jpg);
 }
 .traffic_slide2{
-    background-image: url(../html/sub_page/sub_images/sub_img5.jpg);
+    background-image: url(../html/sub_page/sub_images/traffic_img2.jpg);
 }
 .traffic_slide3{
-    background-image: url(../html/sub_page/sub_images/sub_img6.jpg);
+    background-image: url(../html/sub_page/sub_images/traffic_img3.jpg);
+}
+.traffic_slide4{
+    background-image: url(../html/sub_page/sub_images/traffic_img4.jpg);
 }
 
 
-.food_slide1, .food_slide2, .food_slide3, .traffic_slide1, .traffic_slide2, .traffic_slide3{
+.food_slide1, .food_slide2, .food_slide3, .traffic_slide1, .traffic_slide2, .traffic_slide3, .traffic_slide4{
     width: 1000px;
     height: 400px;
     background-position: center;
@@ -226,7 +229,19 @@ footer{
     color:rgb(59, 49, 39);
 }
 
+.explain .traffic_title, .explain_borderNone .traffic_title{
+    font-size: 24px;
+    color:rgb(39, 53, 73);
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
+.explain .traffic_content, .explain_borderNone .traffic_content{
+    line-height: 1.4em;
+    font-size: 14px;
+    color:rgb(39, 41, 59);
+}
 
 @keyframes fade {
     from {opacity: .4}
