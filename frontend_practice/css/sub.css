@@ -400,10 +400,14 @@ header .container ul li a{
     float: left;
     width: 380px;
     height: 330px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 15px;
     line-height: 1.5em;
     font-size: 14px;
     position: relative;
+}
+
+.info_box{
+    margin-left: 50px;
 }
