@@ -357,7 +357,7 @@ header .container ul li a{
     height: 300px;
 }
 .poke_box2{
-    width: 900px;
+    width: 760px;
     height: 500px;
     margin-bottom: 50px;
 }
@@ -366,4 +366,44 @@ header .container ul li a{
     font-family: "nanum";
     src: url("font/NanumSquareNeo-bRg.ttf");
     font-size: 15px;
+}
+.poke_explain1{
+    border: 2px dashed darkgrey;
+    border-radius: 30px;
+    padding: 20px;
+    float: left;
+    width: 600px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    font-size: 14px;
+    position: relative;
+}
+.poke_explain{
+    border: 2px dashed darkgrey;
+    border-radius: 30px;
+    padding: 20px;
+    float: left;
+    width: 510px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    font-size: 14px;
+    position: relative;
+}
+.poke_explain2{
+    border: 2px dashed darkgrey;
+    border-radius: 30px;
+    padding: 20px;
+    float: left;
+    width: 380px;
+    height: 330px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    line-height: 1.5em;
+    font-size: 14px;
+    position: relative;
 }
