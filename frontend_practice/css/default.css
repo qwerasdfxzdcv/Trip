@@ -41,7 +41,7 @@ header{
     padding: 1rem;
     width: 100%; /* 헤더 자체의 너비는 화면 가로 너비와 같음*/
     background-color: white;
-    text-align: center;    
+    text-align: center;
 }
 header .container{
     width: 70%; /* 실질적으로 사용할 header의 너비는 전체의 70% */

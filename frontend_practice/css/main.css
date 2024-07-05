@@ -1,8 +1,10 @@
 body{
-    height: 100vh;
+    height: 100vh; /* body의 세로 길이 = 화면 크기 */
+    width: 100%; /* body의 가로 길이 = 화면 크기 */
+    position: fixed; /* body 위치 고정 */
 }
 main .container{
-    width: 100%;
+    width: 100%; /* main content의 가로 길이 = 화면 크기*/
 }
 header h2, header .container li a{
     color: white;
@@ -10,15 +12,17 @@ header h2, header .container li a{
 .mainImg{
     position: absolute;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(../main_image/main_image1.jpg);
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 0.75;
+    overflow: hidden; /* 화면 벗어나는 범위 잘라내기 */
 }
 .background{
+    overflow: hidden;
     background-color:/* rgb(130, 198, 198);*/ black;
     height: 100vh;
     width: 100%;
